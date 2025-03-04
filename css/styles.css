@@ -715,9 +715,7 @@ display: none;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto; 
+   
 }
 
 .footer-span {
@@ -857,7 +855,8 @@ display: none;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
-        gap: 24px;
+        gap: 72px 24px;
+        width: 584px;
     }
     .logo-box {
         align-items: flex-start;
@@ -889,6 +888,8 @@ display: none;
 @media screen and (min-width: 1158px) {
     .container-footer {
         align-items: baseline;
+        gap: unset;
+        width: 1440px;
     }
     .footer-end {
         padding-top: 100px;
@@ -896,6 +897,7 @@ display: none;
     }
     .logo-box {
         width: 264px;
+        margin-right: 120px;
     }
 
     .form-footer {
@@ -904,6 +906,8 @@ display: none;
     .text-footer {
         max-width: 264px;
     }
-   
+   .social-container {
+    margin-right: 80px;
+   }
     
 }
