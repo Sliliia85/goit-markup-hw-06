@@ -431,7 +431,12 @@ button:focus>svg {
     background-size: cover;
     max-width: 320px;
     margin: 0 auto;
-
+}
+@media (min-resolution: 2x) {
+    .solution {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x.png);
+    }
 }
 
 .title-solution {
@@ -481,6 +486,12 @@ button:focus>svg {
                     rgba(46, 47, 66, 0.7)),
                 url(../images/Dark-bg-tablet.png);
     }
+        @media (min-resolution: 2x) {
+            .solution {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tablet@2x.png);
+            }
+        }
 
     .title-solution {
         font-size: 56px;
@@ -505,6 +516,12 @@ button:focus>svg {
                     rgba(46, 47, 66, 0.7)),
                 url(../images/people-office.jpg);
     }
+        @media (min-resolution: 2x) {
+            .solution {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
+            }
+        }
 
     .title-solution {
         font-size: 56px;
