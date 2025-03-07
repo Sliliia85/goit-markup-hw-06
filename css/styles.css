@@ -252,6 +252,7 @@ button:focus>svg {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
 .mobile-menu-link-contact:hover,
@@ -761,7 +762,6 @@ button:focus>svg {
 
     .conteiner-team-card {
         width: 768px;
-        padding: 96px 0;
     }
 
     .team-list {
@@ -775,9 +775,6 @@ button:focus>svg {
         padding: 120px 0;
     }
 
-    .conteiner-team-card {
-        width: 1158px;
-    }
 
     .team-list {
         gap: 24px;
@@ -1373,11 +1370,17 @@ button:focus>svg {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-span:hover,
+.modal-span:focus {
+    background-color: #404bbf;
+}
+
 input:checked+label>span {
     border: none;
     fill: #F4F4FD;
-    background-color: #404bbf;
 }
+
+
 
 .modal-link {
     line-height: 1.33;
