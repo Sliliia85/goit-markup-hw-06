@@ -593,8 +593,6 @@ button:focus>svg {
 
     .strategy-list-item {
         width: 356px;
-        height: 120px;
-
     }
 
     .title-strategy {
@@ -612,8 +610,7 @@ button:focus>svg {
         gap: 24px;
         justify-content: space-between;
         flex-wrap: nowrap;
-        width: 1128px;
-        height: 312px;
+      
     }
 
     .conteiner-strategy-icon {
@@ -778,7 +775,8 @@ button:focus>svg {
 
     .team-list {
         gap: 24px;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: nowrap;
     }
 
     .team-info {
